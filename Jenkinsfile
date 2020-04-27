@@ -10,9 +10,9 @@ node{
   stage('Slack Notification'){
    slackSend baseUrl: 'https://hooks.slack.com/services/',
      channel: '#pipelinejob',
-     color: 'danger',
-     message: 'Welcome to Jenkins by Slack',
+     color: 'good',
+     message: 'War Build Sucess Notifications by Slack',
      tokenCredentialId: 'Slack-demo',
-     username: 'jenkins-bid8030'
+     username: 'DevOps2020'
   }
 }
